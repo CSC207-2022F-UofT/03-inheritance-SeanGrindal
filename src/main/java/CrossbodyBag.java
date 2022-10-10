@@ -50,6 +50,6 @@
 
   @Override
   public String toString() {
-    return "Crossbody Bag with " + this.numberOfStraps + " straps";
+    return super.color + " Crossbody Bag with " + this.numberOfStraps + " straps (" + this.numberOfContents + " / " + this.capacity + ")";
   }
 }
